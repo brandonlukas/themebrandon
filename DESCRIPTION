@@ -1,0 +1,10 @@
+Package: themebrandon
+Title: Clean ggplot2 Themes by Brandon
+Version: 0.0.0.9000
+Authors@R: 
+    person("Brandon", "Lukas", , "blukas4@uic.edu", role = c("aut", "cre"))
+Description: Custom ggplot2 theme that uses clean, uniform lines and text size.
+License: use_mit_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
