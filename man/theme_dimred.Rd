@@ -4,7 +4,7 @@
 \alias{theme_dimred}
 \title{Brandon's Theme for Dimensionality Reduction Plots}
 \usage{
-theme_dimred(label = TRUE, base_size = 8, text_size = 7)
+theme_dimred(label = TRUE, base_size = 8, text_size = 7, square = TRUE)
 }
 \arguments{
 \item{label}{Logical. If TRUE (default), show axis labels and lines; otherwise, hide them.}
@@ -12,6 +12,8 @@ theme_dimred(label = TRUE, base_size = 8, text_size = 7)
 \item{base_size}{Numeric. Used to determine axis line thickness if \code{label = TRUE}.}
 
 \item{text_size}{Numeric. Font size for axis titles if \code{label = TRUE}.}
+
+\item{square}{Logical. If TRUE (default), sets aspect ratio to 1 (square plot); if FALSE, does not set aspect ratio.}
 }
 \value{
 A ggplot2 theme or list of theme + guides.

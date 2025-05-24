@@ -57,7 +57,7 @@ ggplot(mtcars, aes(mpg, wt)) +
 
 ### theme_dimred
 
-A minimalist theme optimized for dimensionality reduction plots, with optional axis labeling.
+A minimalist theme optimized for dimensionality reduction plots, with optional axis labeling and an option to enforce a square aspect ratio.
 
 ```r
 library(ggplot2)
@@ -73,6 +73,7 @@ ggplot(df, aes(UMAP1, UMAP2)) +
 - `label`: Logical. Show axis labels and lines? (default: TRUE)
 - `base_size`: Numeric. Axis line thickness if `label = TRUE` (default: 8)
 - `text_size`: Numeric. Font size for axis titles if `label = TRUE` (default: 7)
+- `square`: Logical. If TRUE (default), sets aspect ratio to 1 (square plot); if FALSE, does not set aspect ratio.
 
 ## Features
 
