@@ -9,10 +9,6 @@ theme_dimred(label = TRUE, base_size = 8, text_size = 7, square = TRUE)
 \arguments{
 \item{label}{Logical. If TRUE (default), show axis labels and lines; otherwise, hide them.}
 
-\item{base_size}{Numeric. Used to determine axis line thickness if \code{label = TRUE}.}
-
-\item{text_size}{Numeric. Font size for axis titles if \code{label = TRUE}.}
-
 \item{square}{Logical. If TRUE (default), sets aspect ratio to 1 (square plot); if FALSE, does not set aspect ratio.}
 }
 \value{
@@ -20,7 +16,7 @@ A ggplot2 theme or list of theme + guides.
 }
 \description{
 A minimalist theme optimized for UMAP, PCA, t-SNE, and similar plots,
-with optional axis labeling. Uses \code{ggh4x::guide_axis_truncated()} for visual clarity.
+with optional axis labeling.
 }
 \examples{
 library(ggplot2)
